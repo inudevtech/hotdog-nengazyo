@@ -1,0 +1,6 @@
+numpy
+opencv-python
+pyocr
+pillow
+fastapi
+python-multipart

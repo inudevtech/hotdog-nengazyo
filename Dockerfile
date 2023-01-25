@@ -7,5 +7,5 @@ RUN rm requirements.txt
 COPY . .
 
 RUN apt-get update
-RUN apt-get install tesseract-ocr libtesseract-dev
+RUN apt-get install tesseract-ocr libtesseract-dev -y --no-install-recommends
 RUN apt clean
